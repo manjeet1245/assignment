@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-
+import data from './data.json';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {
+        data.map((m, index) => (
+          <div>
+            <div>{m?.rating}</div>
+            <div> {m?.name}</div>
+            <div>{m?.company}</div>
+            <div ><img
+              src={m?.pic} style={{width:300,height:200}}
+            /></div>
+            <div>{m?.desc}</div>
+          </div>
+        ))
+
+
+      }
+    {/* /  <button className='btn'>Book a Session</button> */}
     </div>
   );
 }
