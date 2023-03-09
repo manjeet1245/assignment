@@ -10,16 +10,16 @@
     },
     {
         "id": 2,
-        "rating": 5.0,
+        "rating": "5.0",
         "star": 5,
         "name": "Saurav Pal",
-        "company": "SDE- @Amazon",
+        "company": "SDE-2 @Amazon",
         "desc": "I am a Senior Software Developer at Amazon. Have been pasionately solving Leetcode, HackerRank, Codechef, Codeforces problems and enthusiastically solving problem with the analysis of space.",
         "pic" : "./assets/saurav.png"
     },
     {
         "id": 3,
-        "rating": 5,
+        "rating": "5.0",
         "star": 5,
         "name": "Saumya Singh",
         "company": "Software Engineer @Red Hat",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "rating": 5,
+        "rating": "5.0",
         "star": 5,
         "name": "Keshav Bathla",
         "company": "SDE-1 @Groww",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "rating": 5,
+        "rating": "5.0",
         "star": 5,
         "name": "Ankita ",
         "company": "ML Engineer @Firework",
